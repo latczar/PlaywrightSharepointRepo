@@ -1,20 +1,41 @@
 # Introduction 
-TODO: Give a short introduction of your project. Let this section explain the objectives or the motivation behind this project. 
+This project is a Playwright-based Java test automation framework designed for testing the BREEAM platform. It replaces the existing Selenium TestNG framework with a modern, faster, and more reliable solution using Playwright Java.
+
+This framework enables:
+
+-End-to-end UI automation testing for the BREEAM platform
+
+-SSO login & OTP authentication testing (Mailosaur API for email verification)
+
+-Asset creation, assessment workflows, and user role validation
+
+-Parallel test execution for faster test runs
+
+-Detailed reporting using Extent Reports
+
+
+With Playwright, tests are executed with faster performance, better stability, and improved cross-browser compatibility compared to traditional Selenium WebDriver.
 
 # Getting Started
-TODO: Guide users through getting your code up and running on their own system. In this section you can talk about:
-1.	Installation process
-2.	Software dependencies
-3.	Latest releases
-4.	API references
+1️⃣ Prerequisites
 
-# Build and Test
-TODO: Describe and show how to build your code and run the tests. 
+Ensure the following are installed before running the tests:
 
-# Contribute
-TODO: Explain how other users and developers can contribute to make your code better. 
+-Java 11+
 
-If you want to learn more about creating good readme files then refer the following [guidelines](https://docs.microsoft.com/en-us/azure/devops/repos/git/create-a-readme?view=azure-devops). You can also seek inspiration from the below readme files:
-- [ASP.NET Core](https://github.com/aspnet/Home)
-- [Visual Studio Code](https://github.com/Microsoft/vscode)
-- [Chakra Core](https://github.com/Microsoft/ChakraCore)
+-Maven 3.6+
+
+-Node.js (for Playwright CLI) (Optional but recommended)
+
+-Playwright Dependencies
+
+-TestNG (for structured test execution)
+
+-ExtentReports (for reporting)
+
+-Mailosaur API Key (if running email verification tests)
+
+2️⃣ Installation
+Clone the repository from your CLI or command prompt:
+
+`git clone https://cielocosta-projects@dev.azure.com/cielocosta-projects/BRE/_git/BreeamPlaywright`
