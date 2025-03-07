@@ -35,3 +35,7 @@ Ensure the following are installed before running the tests:
 
 -Mailosaur API Key (if running email verification tests)
 
+2️⃣ Installation
+Clone the repository from your CLI or command prompt:
+
+-git clone https://cielocosta-projects@dev.azure.com/cielocosta-projects/BRE/_git/BreeamPlaywright
