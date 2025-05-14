@@ -1,4 +1,4 @@
-# 🧪 Playwright SharePoint Automation Framework
+# Demo Playwright SharePoint Automation Framework
 
 This demo repository contains a Playwright-based end-to-end automation framework built for validating SharePoint-integrated enterprise applications. The goal is to support scalable, maintainable, and efficient automated testing across web platforms with SharePoint and Azure AD integration.
 
